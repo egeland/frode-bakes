@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Frode Bakes'
+theme = "rocinante" # from https://themes.gohugo.io/themes/hugo-rocinante/
+paginate = 3
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+  favicon = "/icons/favicon.png"
+  mainSections = ["posts", "photos"]
+  email = "mail@example.com"
+  about = """
+I'm trying to bake various vegan things - this is a place to share my results...
+"""
